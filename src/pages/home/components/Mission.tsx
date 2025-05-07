@@ -3,11 +3,11 @@ const Mission = () => {
     <section className=" bg-[#1FB8AA]">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-[90rem]">
         <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-12 xl:gap-x-24">
-          <div className="h-full pr-12 lg:order-2 ">
+          <div className="h-full  lg:order-2 ">
             <div className="relative h-full lg:h-auto">
               <div className="relative">
                 <img
-                  className=""
+                  className="rounded-xl"
                   src="https://cdn.rareblocks.xyz/collection/celebration/images/content/2/girl-drinking-coffee.jpg"
                   alt=""
                 />
@@ -15,7 +15,7 @@ const Mission = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-start py-10 lg:order-1 sm:py-16 lg:py-24 xl:py-48">
+          <div className="flex items-center justify-start lg:order-1 ">
             <div>
               <p className="text-sm font-semibold  text-white">
                 Mission Briefing: The Problem We are Solving

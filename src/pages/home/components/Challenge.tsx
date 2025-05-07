@@ -24,27 +24,33 @@ const Challenge = () => {
           </p>
         </div>
 
-        <div className="grid max-w-md grid-cols-1 gap-12 mx-auto mt-16 text-center lg:grid-cols-3 lg:max-w-none">
+        <div className="grid  grid-cols-1 gap-10 xl:lg:gap-16 mx-auto mt-16 text-center md:grid-cols-2 lg:grid-cols-3">
           {challengeData.data.map((item, index) => (
             <div
               key={index}
-              className="relative overflow-hidden transition-all duration-200 border border-white/50 rounded-lg border-neutral hover:bg-dark-gray group"
+              className="relative overflow-hidden transition-all duration-200 border border-white/50 rounded-xl border-neutral hover:bg-dark-gray group"
             >
               <div className="overflow-hidden aspect-w-16 aspect-h-9">
-                <img
-                  className="object-cover w-full h-full transition-all duration-300 transform group-hover:scale-125"
-                  src="https://cdn.rareblocks.xyz/collection/bakerstreet/images/features/2/feature-1.png"
-                  alt=""
+                <video
+                  className="w-full h-full object-cover pointer-events-none transition-all duration-300 transform group-hover:scale-125"
+                  src={item.video}
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  controls={false}
                 />
               </div>
               <div className="p-6 xl:px-8 xl:py-6">
-                <h3 className=" text-xl font-normal text-white">{item.name}</h3>
-                <p className="mt-2 text-base font-normal text-opacity-50 text-white">
+                <h3 className=" text-base font-semibold text-white">
+                  {item.name}
+                </h3>
+                <p className="mt-2 text-sm font-normal text-opacity-50 text-white">
                   {item.content}
                 </p>
                 <button
                   onClick={() => handleOpenDetails(item)}
-                  className="inline-flex items-center justify-center mt-10 font-sans text-base font-normal text-white"
+                  className="inline-flex items-center justify-center mt-5 text-sm font-normal text-white"
                 >
                   Read More
                   <div className="inline-flex items-center justify-center w-8 h-8 ml-2 transition-all duration-200 bg-transparent rounded-full group-hover:bg-neutral">

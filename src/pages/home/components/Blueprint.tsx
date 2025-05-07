@@ -26,10 +26,10 @@ const Blueprint = () => {
               <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow">
                 <span className="text-xl font-semibold text-gray-700"> 1 </span>
               </div>
-              <h3 className="mt-6 text-xl font-semibold text-white md:mt-10">
+              <h3 className="mt-6 text-base font-semibold text-white md:mt-10">
                 Discovery & Immersion
               </h3>
-              <p className="mt-4 text-base text-white">
+              <p className="mt-4 text-sm text-white">
                 We embed ourselves in your environment, gaining deep insights
                 into your team, challenges, and culture through observation and
                 authentic engagement.
@@ -40,10 +40,10 @@ const Blueprint = () => {
               <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow">
                 <span className="text-xl font-semibold text-gray-700"> 2 </span>
               </div>
-              <h3 className="mt-6 text-xl font-semibold text-white md:mt-10">
+              <h3 className="mt-6 text-base font-semibold text-white md:mt-10">
                 Insightful Assessment
               </h3>
-              <p className="mt-4 text-base text-white">
+              <p className="mt-4 text-sm text-white">
                 Using cutting-edge tools, we uncover strengths, blind spots, and
                 opportunities, ensuring a data-driven approach tailored to your
                 organization.
@@ -54,10 +54,10 @@ const Blueprint = () => {
               <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow">
                 <span className="text-xl font-semibold text-gray-700"> 3 </span>
               </div>
-              <h3 className="mt-6 text-xl font-semibold text-white md:mt-10">
+              <h3 className="mt-6 text-base font-semibold text-white md:mt-10">
                 Strategic Design & Roadmap
               </h3>
-              <p className="mt-4 text-base text-white">
+              <p className="mt-4 text-sm text-white">
                 We translate insights into an actionable plan, providing a clear
                 roadmap that connects understanding with execution for real
                 transformation.
@@ -67,10 +67,10 @@ const Blueprint = () => {
               <div className="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow">
                 <span className="text-xl font-semibold text-gray-700"> 4 </span>
               </div>
-              <h3 className="mt-6 text-xl font-semibold text-white md:mt-10">
+              <h3 className="mt-6 text-base font-semibold text-white md:mt-10">
                 The Innovation Playground
               </h3>
-              <p className="mt-4 text-base text-white">
+              <p className="mt-4 text-sm text-white">
                 We bring learning to life through immersive simulations,
                 gamified experiences, and interactive challenges — turning
                 strategy into action and impact.

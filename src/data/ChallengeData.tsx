@@ -2,8 +2,8 @@ export const challengeData = {
   data: [
     {
       id: 1,
-      image:
-        "https://res.cloudinary.com/djmddrfv2/image/upload/v1743586390/Park-University-learning-gamification-Blog-Banner_stszm5.jpg",
+      video:
+        "https://res.cloudinary.com/djmddrfv2/video/upload/v1746641301/culture-misalignment_yvt2zy.mp4",
       name: "Culture Misalignment",
       content:
         "Teams are working... but not together. Let's realign with purpose.",
@@ -20,8 +20,8 @@ export const challengeData = {
     },
     {
       id: 2,
-      image:
-        "https://res.cloudinary.com/djmddrfv2/image/upload/v1743586390/Park-University-learning-gamification-Blog-Banner_stszm5.jpg",
+      video:
+        "https://res.cloudinary.com/djmddrfv2/video/upload/v1746641297/high-turnover_x3thmq.mp4",
       name: "High Turnover",
       content:
         "You’re losing great talent faster than expected. Time to fix the gaps.",
@@ -38,8 +38,8 @@ export const challengeData = {
     },
     {
       id: 3,
-      image:
-        "https://res.cloudinary.com/djmddrfv2/image/upload/v1743586390/Park-University-learning-gamification-Blog-Banner_stszm5.jpg",
+      video:
+        "https://res.cloudinary.com/djmddrfv2/video/upload/v1746641299/leadership-gaps_p78fqh.mp4",
       name: "Leadership Gaps",
       content:
         "Mid-level and senior leaders need deeper strategy, presence, and influence.",
@@ -56,8 +56,8 @@ export const challengeData = {
     },
     {
       id: 4,
-      image:
-        "https://res.cloudinary.com/djmddrfv2/image/upload/v1743586390/Park-University-learning-gamification-Blog-Banner_stszm5.jpg",
+      video:
+        "https://res.cloudinary.com/djmddrfv2/video/upload/v1746641293/bias-bind-spot_t1ozdu.mp4",
       name: "Bias Blind Spots",
       content:
         "You’re committed to equity but unsure how to shift real behaviors.",
@@ -77,8 +77,8 @@ export const challengeData = {
     },
     {
       id: 5,
-      image:
-        "https://res.cloudinary.com/djmddrfv2/image/upload/v1743586390/Park-University-learning-gamification-Blog-Banner_stszm5.jpg",
+      video:
+        "https://res.cloudinary.com/djmddrfv2/video/upload/v1746641294/training-without-impact_h74jnd.mp4",
       name: "Training Without Impact",
       content:
         "Your team attends training… but nothing changes. Let’s fix that.",
@@ -97,8 +97,8 @@ export const challengeData = {
     },
     {
       id: 6,
-      image:
-        "https://res.cloudinary.com/djmddrfv2/image/upload/v1743586390/Park-University-learning-gamification-Blog-Banner_stszm5.jpg",
+      video:
+        "https://res.cloudinary.com/djmddrfv2/video/upload/v1746641297/custom-challenge_obyixl.mp4",
       name: "Custom Challenge",
       content:
         "Don’t see your issue here? Tell us what’s keeping you up at night.",

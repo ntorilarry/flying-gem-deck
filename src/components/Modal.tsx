@@ -5,7 +5,7 @@ type ModalProps = {
   children?: React.ReactNode;
 };
 
-const Modal = ({ open, onClose, title, children }: ModalProps) => {
+const Modal = ({ open, onClose, children }: ModalProps) => {
   if (!open) return null;
 
   return (
@@ -20,12 +20,7 @@ const Modal = ({ open, onClose, title, children }: ModalProps) => {
         >
           {/*content*/}
           <div className="bg-white border border-gray-200 shadow">
-            <div className="p-5 lg:p-10">
-              {title && (
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
-                  {title}
-                </h5>
-              )}
+            <div className="">
               <div className="mb-3 font-normal text-gray-700">{children}</div>
             </div>
           </div>
