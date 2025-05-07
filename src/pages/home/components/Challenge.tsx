@@ -1,44 +1,14 @@
 import { useState } from "react";
-import Modal from "../../../components/Modal";
+import { challengeData } from "../../../data/ChallengeData";
+import ChallengeModal from "./ChallengeModal";
 
 const Challenge = () => {
-  const challengeData = [
-    {
-      title: "Culture Misalignment",
-      content:
-        "Teams are working... but not together. Let's realign with purpose.",
-    },
-    {
-      title: "High Turnover",
-      content:
-        "You’re losing great talent faster than expected. Time to fix the gaps.",
-    },
-    {
-      title: "Leadership Gaps",
-      content:
-        "Mid-level and senior leaders need deeper strategy, presence, and influence.",
-    },
-    {
-      title: "DEI & Bias Blind Spots",
-      content:
-        "You’re committed to equity but unsure how to shift real behaviors.",
-    },
-    {
-      title: "Training Without Impact",
-      content:
-        "Your team attends training… but nothing changes. Let’s fix that.",
-    },
-    {
-      title: "Custom Challenge",
-      content:
-        "Don’t see your issue here? Tell us what’s keeping you up at night.",
-    },
-  ];
-
   const [openDetails, setOpenDetails] = useState(false);
+  const [selectedChallenge, setSelectedChallenge] = useState(null);
 
-  const handleOpenDetails = () => {
+  const handleOpenDetails = (data) => {
     setOpenDetails(true);
+    setSelectedChallenge(data);
   };
 
   return (
@@ -55,7 +25,7 @@ const Challenge = () => {
         </div>
 
         <div className="grid max-w-md grid-cols-1 gap-12 mx-auto mt-16 text-center lg:grid-cols-3 lg:max-w-none">
-          {challengeData.map((item, index) => (
+          {challengeData.data.map((item, index) => (
             <div
               key={index}
               className="relative overflow-hidden transition-all duration-200 border border-white/50 rounded-lg border-neutral hover:bg-dark-gray group"
@@ -68,14 +38,12 @@ const Challenge = () => {
                 />
               </div>
               <div className="p-6 xl:px-8 xl:py-6">
-                <h3 className=" text-xl font-normal text-white">
-                  {item.title}
-                </h3>
+                <h3 className=" text-xl font-normal text-white">{item.name}</h3>
                 <p className="mt-2 text-base font-normal text-opacity-50 text-white">
                   {item.content}
                 </p>
                 <button
-                  onClick={handleOpenDetails}
+                  onClick={() => handleOpenDetails(item)}
                   className="inline-flex items-center justify-center mt-10 font-sans text-base font-normal text-white"
                 >
                   Read More
@@ -102,7 +70,11 @@ const Challenge = () => {
           ))}
         </div>
       </div>
-      <Modal open={openDetails} onClose={() => setOpenDetails(false)} />
+      <ChallengeModal
+        open={openDetails}
+        onClose={() => setOpenDetails(false)}
+        data={selectedChallenge}
+      />
     </section>
   );
 };
