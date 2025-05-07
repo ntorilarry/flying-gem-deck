@@ -5,7 +5,7 @@ const ChallengeModal = ({ open, onClose, data }) => {
     <div>
       {" "}
       <Modal open={open} onClose={onClose} title="">
-        <p>{data.name}</p>
+        <p>{data?.name}</p>
       </Modal>
     </div>
   );
