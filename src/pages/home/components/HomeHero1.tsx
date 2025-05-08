@@ -24,6 +24,7 @@ const HomeHero1 = () => {
             data-aos-offset="100"
             data-aos-duration="1000"
             data-aos-delay="200"
+            data-aos-once="true"
             className="w-16 h-16 mx-auto mb-4"
             src="https://res.cloudinary.com/djmddrfv2/image/upload/v1741105926/flying-gem-logo_otxn1h.png"
             alt=""
@@ -34,6 +35,7 @@ const HomeHero1 = () => {
               data-aos-offset="100"
               data-aos-duration="1000"
               data-aos-delay="400"
+              data-aos-once="true"
               className="inline-block mb-4 text-sm text-white font-medium tracking-tighter"
             >
               Welcome to Flying-Gem Consulting
@@ -43,6 +45,7 @@ const HomeHero1 = () => {
               data-aos-offset="100"
               data-aos-duration="1000"
               data-aos-delay="600"
+              data-aos-once="true"
               className="font-heading mb-6 text-5xl lg:text-6xl xl:text-7xl text-white tracking-9xl  mx-auto"
             >
               {/* <Typewriter
@@ -50,7 +53,7 @@ const HomeHero1 = () => {
                 text=" imagination"
                 speed={100}
               /> */}
-              Where strategy meets {" "}
+              Where strategy meets{" "}
               <span className="font-playfair italic font-semibold">
                 imagination
               </span>
@@ -60,6 +63,7 @@ const HomeHero1 = () => {
               data-aos-offset="100"
               data-aos-duration="1000"
               data-aos-delay="800"
+              data-aos-once="true"
               className="my-8 text-base font-normal text-white md:max-w-3xl mx-auto"
             >
               You are not just here to LEARN - you are here to transform how
@@ -73,6 +77,7 @@ const HomeHero1 = () => {
               data-aos-offset="100"
               data-aos-duration="1000"
               data-aos-delay="1000"
+              data-aos-once="true"
               className="inline-block mt-6 px-8 py-4 font-medium tracking-tighter bg-green-400 hover:bg-green-500 text-black focus:ring-4 focus:ring-green-500 focus:ring-opacity-40 rounded-full transition duration-300"
             >
               Launch Your Strategy

@@ -30,6 +30,7 @@ const Convinced = () => {
               data-aos-offset="100"
               data-aos-duration="1000"
               data-aos-delay="200"
+              data-aos-once="true"
               className="w-full max-w-sm mx-auto rounded-xl"
               src="https://res.cloudinary.com/djmddrfv2/image/upload/v1746702074/1625_w5dmsx.jpg"
               alt=""
@@ -42,6 +43,7 @@ const Convinced = () => {
               data-aos-offset="100"
               data-aos-duration="1000"
               data-aos-delay="400"
+              data-aos-once="true"
               className="text-3xl font-normal text-white sm:text-4xl lg:text-5xl "
             >
               Still not{" "}
@@ -54,6 +56,7 @@ const Convinced = () => {
               data-aos-offset="100"
               data-aos-duration="1000"
               data-aos-delay="600"
+              data-aos-once="true"
               className="mt-4 text-base leading-7 text-white"
             >
               Facts That Turn Skeptics Into Believers
@@ -219,6 +222,7 @@ const Convinced = () => {
                   data-aos-offset="100"
                   data-aos-duration="1000"
                   data-aos-delay={index * 300}
+                  data-aos-once="true"
                   key={index}
                   className="flex items-center text-white"
                 >

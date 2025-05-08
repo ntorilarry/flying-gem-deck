@@ -10,6 +10,7 @@ const Mission = () => {
                 data-aos-offset="100"
                 data-aos-duration="1000"
                 data-aos-delay="1600"
+                data-aos-once="true"
                 className="relative"
               >
                 <img
@@ -27,6 +28,7 @@ const Mission = () => {
                 data-aos="fade-right"
                 data-aos-offset="100"
                 data-aos-duration="1000"
+                data-aos-once="true"
                 data-aos-delay="200"
                 className="text-sm font-semibold  text-white"
               >
@@ -36,6 +38,7 @@ const Mission = () => {
                 data-aos="fade-right"
                 data-aos-offset="100"
                 data-aos-duration="1000"
+                data-aos-once="true"
                 data-aos-delay="400"
                 className="mt-8 text-3xl font-normal text-white "
               >
@@ -49,6 +52,7 @@ const Mission = () => {
                 data-aos-offset="100"
                 data-aos-duration="1000"
                 data-aos-delay="600"
+                data-aos-once="true"
                 className="text-sm  text-white mt-9"
               >
                 Most training programs are designed for compliance — not
@@ -60,6 +64,7 @@ const Mission = () => {
                 data-aos-offset="100"
                 data-aos-duration="1000"
                 data-aos-delay="800"
+                data-aos-once="true"
                 className="mt-6 text-sm  text-white"
               >
                 At Flying-Gem, we do things differently. We turn real business
@@ -72,6 +77,7 @@ const Mission = () => {
                 data-aos-offset="100"
                 data-aos-duration="1000"
                 data-aos-delay="1000"
+                data-aos-once="true"
                 className="mt-6 text-sm  text-white"
               >
                 Whether it’s navigating bias, building strategic leaders, or
@@ -84,6 +90,7 @@ const Mission = () => {
                 data-aos-offset="100"
                 data-aos-duration="1000"
                 data-aos-delay="1200"
+                data-aos-once="true"
                 className="mt-6 text-base italic  text-white"
               >
                 Because the future doesn’t need more training. It needs
@@ -94,6 +101,7 @@ const Mission = () => {
                 data-aos="fade-right"
                 data-aos-offset="100"
                 data-aos-duration="1000"
+                data-aos-once="true"
                 data-aos-delay="1400"
                 className="inline-block mt-6 px-8 py-4 font-medium tracking-tighter bg-green-400 hover:bg-green-500 text-black focus:ring-4 focus:ring-green-500 focus:ring-opacity-40 rounded-full transition duration-300"
               >

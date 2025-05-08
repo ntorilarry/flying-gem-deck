@@ -11,6 +11,7 @@ const Blueprint = () => {
             data-aos-offset="100"
             data-aos-duration="1000"
             data-aos-delay="200"
+            data-aos-once="true"
             className="text-3xl font-normal text-white sm:text-4xl lg:text-5xl"
           >
             Your Flying-Gem{" "}
@@ -23,6 +24,7 @@ const Blueprint = () => {
             data-aos-offset="100"
             data-aos-duration="1000"
             data-aos-delay="400"
+            data-aos-once="true"
             className="max-w-lg mx-auto mt-4 text-base leading-relaxed text-white"
           >
             We don’t deliver one-size-fits-all training. We partner with you
@@ -36,6 +38,7 @@ const Blueprint = () => {
             data-aos-offset="100"
             data-aos-duration="1000"
             data-aos-delay="600"
+            data-aos-once="true"
             className="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-20 lg:px-28"
           >
             <img
@@ -55,6 +58,7 @@ const Blueprint = () => {
                 data-aos-offset="100"
                 data-aos-duration="1000"
                 data-aos-delay="800"
+                data-aos-once="true"
                 className="mt-6 text-base font-semibold text-white md:mt-10"
               >
                 Discovery & Immersion
@@ -64,6 +68,7 @@ const Blueprint = () => {
                 data-aos-offset="100"
                 data-aos-duration="1000"
                 data-aos-delay="1000"
+                data-aos-once="true"
                 className="mt-4 text-sm text-white"
               >
                 We embed ourselves in your environment, gaining deep insights
@@ -81,6 +86,7 @@ const Blueprint = () => {
                 data-aos-offset="100"
                 data-aos-duration="1000"
                 data-aos-delay="1200"
+                data-aos-once="true"
                 className="mt-6 text-base font-semibold text-white md:mt-10"
               >
                 Insightful Assessment
@@ -90,6 +96,7 @@ const Blueprint = () => {
                 data-aos-offset="100"
                 data-aos-duration="1000"
                 data-aos-delay="1400"
+                data-aos-once="true"
                 className="mt-4 text-sm text-white"
               >
                 Using cutting-edge tools, we uncover strengths, blind spots, and
@@ -107,6 +114,7 @@ const Blueprint = () => {
                 data-aos-offset="100"
                 data-aos-duration="1000"
                 data-aos-delay="1600"
+                data-aos-once="true"
                 className="mt-6 text-base font-semibold text-white md:mt-10"
               >
                 Strategic Design & Roadmap
@@ -116,6 +124,7 @@ const Blueprint = () => {
                 data-aos-offset="100"
                 data-aos-duration="1000"
                 data-aos-delay="1800"
+                data-aos-once="true"
                 className="mt-4 text-sm text-white"
               >
                 We translate insights into an actionable plan, providing a clear
@@ -132,6 +141,7 @@ const Blueprint = () => {
                 data-aos-offset="100"
                 data-aos-duration="1000"
                 data-aos-delay="2000"
+                data-aos-once="true"
                 className="mt-6 text-base font-semibold text-white md:mt-10"
               >
                 The Innovation Playground
@@ -141,6 +151,7 @@ const Blueprint = () => {
                 data-aos-offset="100"
                 data-aos-duration="1000"
                 data-aos-delay="2200"
+                data-aos-once="true"
                 className="mt-4 text-sm text-white"
               >
                 We bring learning to life through immersive simulations,

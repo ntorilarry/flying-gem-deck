@@ -20,6 +20,7 @@ const Challenge = () => {
             data-aos-offset="100"
             data-aos-duration="1000"
             data-aos-delay="200"
+            data-aos-once="true"
             className="text-3xl font-normal text-white sm:text-4xl xl:text-5xl"
           >
             Choose Your{" "}
@@ -32,6 +33,7 @@ const Challenge = () => {
             data-aos-offset="100"
             data-aos-duration="1000"
             data-aos-delay="400"
+            data-aos-once="true"
             className="mt-4 text-base max-w-2xl mx-auto leading-7 text-white sm:mt-8 "
           >
             Every organization has its sticking points. Select the challenge
@@ -47,6 +49,7 @@ const Challenge = () => {
               data-aos-offset="100"
               data-aos-duration="1000"
               data-aos-delay={index * 600}
+              data-aos-once="true"
               className="relative overflow-hidden transition-all duration-200 border border-white/50 rounded-xl border-neutral hover:bg-dark-gray group"
             >
               <div className="overflow-hidden aspect-w-16 aspect-h-9">
