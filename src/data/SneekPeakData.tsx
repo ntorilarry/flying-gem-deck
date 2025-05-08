@@ -4,7 +4,7 @@ export const sneekPeakData = {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQj7kTMDC-FRzfT1-0d0RY1zD1KSAeagqgeA&s",
       title: "Phase 1: The Mirror Moment",
-      bgColor: "bg-white/10",
+      bgColor: "bg-blue-900/10",
       subTitle:
         "Objective: Help participants see bias — often hidden — in real-time scenarios.",
       outcome: [
@@ -28,7 +28,7 @@ export const sneekPeakData = {
       image:
         "https://media.licdn.com/dms/image/v2/D4D12AQEmB2qwFlbjyw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1720619473534?e=2147483647&v=beta&t=lSHNX0U116nLzDkSg1M_Dabur_5m6JW0NenOfnPyLAc",
       title: "Phase 2: The Skill Shift Challenge",
-      bgColor: "bg-white/20",
+      bgColor: "bg-red-900/10",
       subTitle: "Objective: Transform insight into actionable strategies.",
       outcome: [
         {
@@ -51,7 +51,7 @@ export const sneekPeakData = {
       image:
         "https://media.licdn.com/dms/image/v2/C4D12AQHNPzEgX4aqjQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1525355080311?e=2147483647&v=beta&t=eMIo7YZiu4lNfqvXsO3KrJgF-3F1T_JwizXp9Q29sq8",
       title: "Phase 3: Building Bias Resilience™",
-      bgColor: "bg-white/30",
+      bgColor: "bg-white/10",
       subTitle:
         "Objective: Solidify change through practice, reinforcement, and team reflection.",
       outcome: [
