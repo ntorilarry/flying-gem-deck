@@ -15,10 +15,22 @@ const Challenge = () => {
     <section className="py-12 bg-[#1FB8AA] sm:py-16 lg:py-20">
       <div className="px-4 mx-auto max-w-[90rem] sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-normal text-white sm:text-4xl xl:text-5xl">
+          <h2
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            className="text-3xl font-normal text-white sm:text-4xl xl:text-5xl"
+          >
             Choose Your Challenge
           </h2>
-          <p className="mt-4 text-base leading-7 text-white sm:mt-8 ">
+          <p
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+            className="mt-4 text-base leading-7 text-white sm:mt-8 "
+          >
             Every organization has its sticking points. Select the challenge
             you’re facing — and we’ll show you how Flying-Gem would tackle it.
           </p>
@@ -28,6 +40,10 @@ const Challenge = () => {
           {challengeData.data.map((item, index) => (
             <div
               key={index}
+              data-aos="fade-up"
+              data-aos-offset="100"
+              data-aos-duration="1000"
+              data-aos-delay={index * 600}
               className="relative overflow-hidden transition-all duration-200 border border-white/50 rounded-xl border-neutral hover:bg-dark-gray group"
             >
               <div className="overflow-hidden aspect-w-16 aspect-h-9">

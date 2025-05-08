@@ -19,6 +19,7 @@ const Modal = ({ open, onClose, children }: ModalProps) => {
           onClick={(e) => e.stopPropagation()}
         >
           {/*content*/}
+
           <div className="bg-white border border-gray-200 shadow">
             <div className="">
               <div className="mb-3 font-normal text-gray-700">{children}</div>
@@ -26,7 +27,7 @@ const Modal = ({ open, onClose, children }: ModalProps) => {
           </div>
         </div>
       </div>
-      <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+      <div className="opacity-50 fixed inset-0 z-40 bg-black"></div>
     </>
   );
 };
