@@ -28,9 +28,8 @@ const SneekPeak = () => {
               data-aos-once="true"
               data-aos-delay={index * 400}
               key={index}
-              className="group relative block border border-white/50 rounded-xl focus:outline-none"
+              className="group relative block bg-[#cdfaf1] border border-white/50 rounded-xl focus:outline-none"
             >
-          
               <div className="z-10">
                 <div className="flex flex-col h-full p-4 sm:p-6">
                   <h3 className=":text-lg leading-tight font-semibold text-white group-hover:text-white/80">

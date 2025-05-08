@@ -1,20 +1,20 @@
-import { Icon2, Icon3, Icon4 } from "../../../assets";
+import { Icon2, Icon3, Icon4, Icon5 } from "../../../assets";
 
 const HomeHero1 = () => {
   return (
     <div className="bg-[#1FB8AA] ">
       <div className="relative">
         <div className="absolute animate-float top-[50px] right-[150px] hidden lg:block">
-          <img src={Icon2} alt="" />
+          <img className="w-24" src={Icon2} alt="" />
         </div>
         <div className="absolute animate-float-slow top-[50px] left-[150px] hidden lg:block">
-          <img src={Icon3} alt="" />
+          <img className="w-24" src={Icon3} alt="" />
         </div>
         <div className="absolute animate-float-fast top-[550px] right-[450px] hidden lg:block">
-          <img src={Icon4} alt="" />
+          <img src={Icon5} alt="" />
         </div>
         <div className="absolute animate-float-faster top-[550px] left-[450px] hidden lg:block">
-          <img src={Icon2} alt="" />
+          <img className="w-24" src={Icon4} alt="" />
         </div>
       </div>
       <section className=" flex w-full h-[100vh] items-center justify-center">

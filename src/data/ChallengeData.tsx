@@ -104,8 +104,13 @@ export const challengeData = {
         "Don’t see your issue here? Tell us what’s keeping you up at night.",
       title: "Custom Challenge – We Build It With You",
       subTitle: "Got a challenge that’s hard to name?",
-      experience: "",
-      outcome: [],
+      experience:
+        "We listen, decode the root issue, and build a fully custom immersive experience designed around your business reality.",
+      outcome: [
+        {
+          point: "Contact Us",
+        },
+      ],
     },
   ],
 };

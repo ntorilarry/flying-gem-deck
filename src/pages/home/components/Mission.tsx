@@ -30,7 +30,7 @@ const Mission = () => {
                 data-aos-duration="1000"
                 data-aos-once="true"
                 data-aos-delay="200"
-                className="text-sm font-semibold  text-white"
+                className="text-lg font-semibold  text-white"
               >
                 Mission Briefing: The Problem We are Solving
               </p>
@@ -40,7 +40,7 @@ const Mission = () => {
                 data-aos-duration="1000"
                 data-aos-once="true"
                 data-aos-delay="400"
-                className="mt-8 text-3xl font-normal text-white "
+                className="mt-4 text-3xl font-normal text-white "
               >
                 Forget everything you know about{" "}
                 <span className="font-playfair italic font-semibold">
@@ -53,7 +53,7 @@ const Mission = () => {
                 data-aos-duration="1000"
                 data-aos-delay="600"
                 data-aos-once="true"
-                className="text-sm  text-white mt-9"
+                className="text-sm  text-white mt-6"
               >
                 Most training programs are designed for compliance — not
                 transformation. They check boxes. They deliver slides. But they
