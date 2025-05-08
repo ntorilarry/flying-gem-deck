@@ -28,17 +28,10 @@ const SneekPeak = () => {
               data-aos-once="true"
               data-aos-delay={index * 400}
               key={index}
-              className="group relative block rounded-xl focus:outline-none"
+              className="group relative block border border-white/50 rounded-xl focus:outline-none"
             >
-              <div className="shrink-0 relative rounded-xl overflow-hidden w-full h-[400px] before:absolute before:inset-x-0 before:z-[1] before:size-full before:bg-black/60 before:bg-gradient-to-t before:from-[#129D93]/90">
-                <img
-                  className="size-full absolute top-0 start-0 object-cover"
-                  src={item.image}
-                  alt="Blog Image"
-                />
-              </div>
-
-              <div className="absolute bottom-0 inset-x-0 z-10">
+          
+              <div className="z-10">
                 <div className="flex flex-col h-full p-4 sm:p-6">
                   <h3 className=":text-lg leading-tight font-semibold text-white group-hover:text-white/80">
                     {item.title}

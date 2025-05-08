@@ -2,7 +2,7 @@ import { Icon2, Icon3, Icon4 } from "../../../assets";
 
 const HomeHero1 = () => {
   return (
-    <div className="bg-[#1FB8AA] overflow-x-hidden">
+    <div className="bg-[#1FB8AA] ">
       <div className="relative">
         <div className="absolute animate-float top-[50px] right-[150px] hidden lg:block">
           <img src={Icon2} alt="" />
