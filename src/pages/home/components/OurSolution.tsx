@@ -1,41 +1,25 @@
-const Convinced = () => {
-  const convicedData = [
+const OurSolution = () => {
+  const solutionData = [
     {
-      content:
-        "83% of employees who undergo gamified training feel more motivated.",
-    },
-    {
-      content: "Gamified experiences boost knowledge retention by up to 90%.",
+      content: "Embeds learning through interactive simulations, not lectures",
     },
     {
       content:
-        "Dopamine, the brain’s “feel-good” chemical, is released during gamified learning—making it more rewarding and sticky.",
+        "Helps employees recognize bias as it happens — and practice corrective actions immediately",
     },
     {
       content:
-        "Companies that use gamification see a 48% increase in employee engagement.",
+        "Builds habit change through gamified decision-making and dynamic feedback loops",
     },
     {
       content:
-        "The #1 reason employees resist training is lack of interest—gamification changes that by adding challenge, meaning, and flow.",
+        "Creates a safe, engaging environment for self-awareness and skill-building without fear of judgment",
     },
   ];
   return (
     <section className="py-12 bg-[#1FB8AA] sm:py-16 lg:py-20">
       <div className="px-4 mx-auto max-w-[90rem] sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:items-center gap-y-8 md:grid-cols-2 md:gap-x-16">
-          <div>
-            <img
-              data-aos="fade-right"
-              data-aos-offset="100"
-              data-aos-duration="1000"
-              data-aos-delay="200"
-              className="w-full max-w-sm mx-auto rounded-xl"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/content/2/girl-drinking-coffee.jpg"
-              alt=""
-            />
-          </div>
-
           <div>
             <h2
               data-aos="fade-left"
@@ -44,7 +28,7 @@ const Convinced = () => {
               data-aos-delay="400"
               className="text-3xl font-semibold text-white sm:text-4xl xl:text-5xl "
             >
-              Still not convinced?
+              Our Solution: Turning Insight Into Action
             </h2>
             <p
               data-aos="fade-left"
@@ -53,7 +37,11 @@ const Convinced = () => {
               data-aos-delay="600"
               className="mt-4 text-base leading-7 text-white"
             >
-              Facts That Turn Skeptics Into Believers
+              At Flying-Gem, we believe training isn't just about awareness —
+              it's about behavioral shift. To tackle bias in performance
+              management, traditional training methods alone aren't enough.
+              That's why we've designed an experiential, real-time solution
+              that:
             </p>
 
             <svg
@@ -210,7 +198,7 @@ const Convinced = () => {
             </svg>
 
             <ul className="mt-5 space-y-5 sm:mt-10">
-              {convicedData.map((item, index) => (
+              {solutionData.map((item, index) => (
                 <li
                   data-aos="fade-left"
                   data-aos-offset="100"
@@ -241,9 +229,20 @@ const Convinced = () => {
               ))}
             </ul>
           </div>
+          <div>
+            <img
+              data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              className="w-full max-w-sm mx-auto rounded-xl"
+              src="https://cdn.rareblocks.xyz/collection/celebration/images/content/2/girl-drinking-coffee.jpg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </section>
   );
 };
-export default Convinced;
+export default OurSolution;
