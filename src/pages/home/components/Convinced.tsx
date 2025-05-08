@@ -1,23 +1,36 @@
+import {
+  FaTrophy,
+  FaBrain,
+  FaFlask,
+  FaChartLine,
+  FaExclamationCircle,
+} from "react-icons/fa";
+
 const Convinced = () => {
   const convicedData = [
     {
       content:
         "83% of employees who undergo gamified training feel more motivated.",
+      icon: <FaTrophy className="w-5 h-5 text-white" />,
     },
     {
       content: "Gamified experiences boost knowledge retention by up to 90%.",
+      icon: <FaBrain className="w-5 h-5 text-white" />,
     },
     {
       content:
-        "Dopamine, the brain’s “feel-good” chemical, is released during gamified learning—making it more rewarding and sticky.",
+        'Dopamine, the brain\'s "feel-good" chemical, is released during gamified learning—making it more rewarding and sticky.',
+      icon: <FaFlask className="w-5 h-5 text-white" />,
     },
     {
       content:
         "Companies that use gamification see a 48% increase in employee engagement.",
+      icon: <FaChartLine className="w-5 h-5 text-white" />,
     },
     {
       content:
         "The #1 reason employees resist training is lack of interest—gamification changes that by adding challenge, meaning, and flow.",
+      icon: <FaExclamationCircle className="w-6 h-6 text-white" />,
     },
   ];
   return (
@@ -226,20 +239,7 @@ const Convinced = () => {
                   key={index}
                   className="flex items-center text-white"
                 >
-                  <svg
-                    className="w-6 h-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
+                  {item.icon}
                   <span className="ml-3 text-sm font-normal text-white">
                     {" "}
                     {item.content}
