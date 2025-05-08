@@ -1,19 +1,30 @@
+import {
+  FaChalkboardTeacher,
+  FaEye,
+  FaGamepad,
+  FaShieldAlt,
+} from "react-icons/fa";
+
 const OurSolution = () => {
   const solutionData = [
     {
       content: "Embeds learning through interactive simulations, not lectures",
+      icon: <FaChalkboardTeacher className="w-6 h-6 text-white" />,
     },
     {
       content:
         "Helps employees recognize bias as it happens — and practice corrective actions immediately",
+      icon: <FaEye className="w-6 h-6 text-white" />,
     },
     {
       content:
         "Builds habit change through gamified decision-making and dynamic feedback loops",
+      icon: <FaGamepad className="w-6 h-6 text-white" />,
     },
     {
       content:
         "Creates a safe, engaging environment for self-awareness and skill-building without fear of judgment",
+      icon: <FaShieldAlt className="w-6 h-6 text-white" />,
     },
   ];
   return (
@@ -213,20 +224,7 @@ const OurSolution = () => {
                   key={index}
                   className="flex items-center text-white"
                 >
-                  <svg
-                    className="w-6 h-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
+                  {item.icon}
                   <span className="ml-3 text-sm font-normal text-white">
                     {" "}
                     {item.content}
