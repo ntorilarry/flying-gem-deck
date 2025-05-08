@@ -1,6 +1,9 @@
 const Blueprint = () => {
   return (
-    <section id="blueprint" className="py-10 bg-[#1FB8AA] sm:py-16 lg:py-24">
+    <section
+      id="blueprint"
+      className="py-10 bg-[#1FB8AA] sm:py-16 lg:py-24 overflow-x-hidden"
+    >
       <div className="px-4 mx-auto max-w-[90rem] sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <h2
@@ -10,7 +13,10 @@ const Blueprint = () => {
             data-aos-delay="200"
             className="text-3xl font-normal text-white sm:text-4xl lg:text-5xl"
           >
-            Your Flying-Gem Blueprint
+            Your Flying-Gem{" "}
+            <span className="font-playfair italic font-semibold">
+              Blueprint
+            </span>
           </h2>
           <p
             data-aos="fade-up"

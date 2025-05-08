@@ -1,6 +1,6 @@
 const Mission = () => {
   return (
-    <section id="mission" className=" bg-[#1FB8AA]">
+    <section id="mission" className=" bg-[#1FB8AA] overflow-x-hidden">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-[90rem]">
         <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-12 xl:gap-x-24">
           <div className="h-full  lg:order-2 ">
@@ -39,7 +39,10 @@ const Mission = () => {
                 data-aos-delay="400"
                 className="mt-8 text-3xl font-normal text-white "
               >
-                Forget everything you know about traditional training...
+                Forget everything you know about{" "}
+                <span className="font-playfair italic font-semibold">
+                  traditional training...
+                </span>
               </h2>
               <p
                 data-aos="fade-right"

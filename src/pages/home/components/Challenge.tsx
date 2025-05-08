@@ -12,7 +12,7 @@ const Challenge = () => {
   };
 
   return (
-    <section className="py-12 bg-[#1FB8AA] sm:py-16 lg:py-20">
+    <section className="py-12 bg-[#1FB8AA] sm:py-16 lg:py-20 overflow-x-hidden">
       <div className="px-4 mx-auto max-w-[90rem] sm:px-6 lg:px-8">
         <div className="text-center">
           <h2
@@ -22,14 +22,17 @@ const Challenge = () => {
             data-aos-delay="200"
             className="text-3xl font-normal text-white sm:text-4xl xl:text-5xl"
           >
-            Choose Your Challenge
+            Choose Your{" "}
+            <span className="font-playfair italic font-semibold">
+              Challenge
+            </span>
           </h2>
           <p
             data-aos="fade-up"
             data-aos-offset="100"
             data-aos-duration="1000"
             data-aos-delay="400"
-            className="mt-4 text-base leading-7 text-white sm:mt-8 "
+            className="mt-4 text-base max-w-2xl mx-auto leading-7 text-white sm:mt-8 "
           >
             Every organization has its sticking points. Select the challenge
             you’re facing — and we’ll show you how Flying-Gem would tackle it.

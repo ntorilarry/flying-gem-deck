@@ -6,28 +6,32 @@
   scroll-behavior: smooth;
 }
 
+.font-playfair {
+  font-family: "Playfair", serif;
+}
+
 @layer utilities {
 
 
   .animate-float {
     animation: float 3s ease-in-out infinite;
     -webkit-animation: float 3s ease-in-out infinite;
-}
+  }
 
   .animate-float-slow {
     animation: float 4s ease-in-out infinite;
     -webkit-animation: float 4s ease-in-out infinite;
-}
+  }
 
   .animate-float-fast {
     animation: float 2s ease-in-out infinite;
     -webkit-animation: float 2s ease-in-out infinite;
-}
+  }
 
   .animate-float-faster {
     animation: float 1s ease-in-out infinite;
     -webkit-animation: float 1s ease-in-out infinite;
-}
+  }
 
 }
 
@@ -44,7 +48,3 @@
     transform: translateY(0px);
   }
 }
-
-
-
-

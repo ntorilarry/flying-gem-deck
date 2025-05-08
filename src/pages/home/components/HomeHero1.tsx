@@ -1,9 +1,8 @@
 import { Icon2, Icon3, Icon4 } from "../../../assets";
-import Typewriter from "../../../components/Typewriter";
 
 const HomeHero1 = () => {
   return (
-    <div className="bg-[#1FB8AA]">
+    <div className="bg-[#1FB8AA] overflow-x-hidden">
       <div className="relative">
         <div className="absolute animate-float top-[50px] right-[150px] hidden lg:block">
           <img src={Icon2} alt="" />
@@ -46,11 +45,15 @@ const HomeHero1 = () => {
               data-aos-delay="600"
               className="font-heading mb-6 text-5xl lg:text-6xl xl:text-7xl text-white tracking-9xl  mx-auto"
             >
-              <Typewriter
+              {/* <Typewriter
                 key="unique-key"
-                text="Where strategy meets imagination"
+                text=" imagination"
                 speed={100}
-              />
+              /> */}
+              Where strategy meets {" "}
+              <span className="font-playfair italic font-semibold">
+                imagination
+              </span>
             </h2>
             <p
               data-aos="fade-up"
