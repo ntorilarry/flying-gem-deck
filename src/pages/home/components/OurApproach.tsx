@@ -30,7 +30,14 @@ export const OurApproach = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
-          <div className="aspect-w-16 aspect-h-9 lg:aspect-none">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+            data-aos-once="true"
+            className="aspect-w-16 aspect-h-9 lg:aspect-none"
+          >
             <img
               className="w-full object-cover h-[400px] rounded-xl"
               src="https://images.unsplash.com/photo-1587614203976-365c74645e83?q=80&w=480&h=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -38,7 +45,13 @@ export const OurApproach = () => {
             />
           </div>
 
-          <div>
+          <div
+            data-aos="fade-left"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+            data-aos-once="true"
+          >
             <div className="mb-4">
               <h3 className="text-white text-xs font-medium uppercase">
                 Our Approach
@@ -110,8 +123,6 @@ export const OurApproach = () => {
                 </p>
               </div>
             </div>
-
-      
           </div>
         </div>
       </div>
