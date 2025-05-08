@@ -103,7 +103,7 @@ const Mission = () => {
                 data-aos-duration="1000"
                 data-aos-once="true"
                 data-aos-delay="1400"
-                className="inline-block mt-6 px-8 py-4 font-medium tracking-tighter bg-green-400 hover:bg-green-500 text-black focus:ring-4 focus:ring-green-500 focus:ring-opacity-40 rounded-full transition duration-300"
+                className="inline-block mt-6 px-8 py-4 font-medium tracking-tighter bg-green-400 hover:bg-green-500 text-white focus:ring-4 focus:ring-green-500 focus:ring-opacity-40 rounded-full transition duration-300"
               >
                 Explore the Blueprint
               </a>
