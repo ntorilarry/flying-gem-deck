@@ -40,7 +40,7 @@ const OurSolution = () => {
               data-aos-duration="1000"
               data-aos-delay="600"
               data-aos-once="true"
-              className="mt-4 text-base leading-7 text-white"
+              className="mt-4 text-sm text-white"
             >
               At Flying-Gem, we believe training isn't just about awareness —
               it's about behavioral shift. To tackle bias in performance
@@ -50,7 +50,7 @@ const OurSolution = () => {
             </p>
 
             <svg
-              className="w-auto h-4 mt-8 text-gray-300 sm:mt-10"
+              className="w-auto h-4 mt-8 text-gray-300 "
               viewBox="0 0 172 16"
               fill="none"
               stroke="currentColor"
@@ -202,7 +202,7 @@ const OurSolution = () => {
               />
             </svg>
 
-            <ul className="mt-5 space-y-5 sm:mt-10">
+            <ul className="mt-5 space-y-2 ">
               {solutionData.map((item, index) => (
                 <li
                   data-aos="fade-left"
@@ -243,7 +243,7 @@ const OurSolution = () => {
               data-aos-once="true"
               data-aos-delay="200"
               className="w-full max-w-sm mx-auto rounded-xl object-cover"
-              src="https://res.cloudinary.com/djmddrfv2/image/upload/v1746702173/2148410762_l56mrd.jpg"
+              src="https://res.cloudinary.com/djmddrfv2/image/upload/v1746702173/2148410762_l56mrd.png"
               alt=""
             />
           </div>
